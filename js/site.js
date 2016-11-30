@@ -2,7 +2,7 @@
 
 var config = {
     title:"Northern Syria Displacement Tracking",
-    description:"Number of newly reported IDPs between October 31st and November 15th, 2016.",
+    description:"Number of newly reported displacements between October 31st and November 15th, 2016.",
     data:"data/data4.json",
     whoFieldName:"F_Subdistrict", //barsdeparture
     whatFieldName:"Nov_Change",
