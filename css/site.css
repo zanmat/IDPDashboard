@@ -16,12 +16,12 @@
 }
 
 #hdx-3W-where {
-    height:230px;
+    height:280px;
     width:100%;
 }
 
 #hdx-3W-where2 {
-    height:230px;
+    height:280px;
     width:100%;
 }
 
@@ -60,5 +60,9 @@
 }
 
 .colheight{
-    height:300px;
+    height:330px;
+}
+
+.colheightbars{
+    height:190px;
 }

@@ -1,8 +1,8 @@
 //configuration object
 
 var config = {
-    title:"Northern Syria CCCM Cluster: IDP Displacements",
-    description:"<p>Click the graphs or map to interact.<br />Date: 28/11/2016 <br />Source: CCCM Cluster Member Agencies</p>",
+    title:"Northern Syria Displacement Tracking",
+    description:"Number of newly reported IDPs between October 31st and November 15th, 2016.",
     data:"data/data4.json",
     whoFieldName:"F_Subdistrict", //barsdeparture
     whatFieldName:"Nov_Change",
@@ -110,7 +110,7 @@ function generate3WComponent(config,data,geom){
                     return 0;
                 }
             })           
-            .featureKeyAccessor(function(feature){
+              .featureKeyAccessor(function(feature){
                 return feature.properties[config.joinAttribute];
             });
     
