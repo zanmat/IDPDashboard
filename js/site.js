@@ -9,7 +9,7 @@ var config = {
     whereFieldName:"T_Subdistrict", //mapdestination
     whereFieldName2:"F_Subdistrict", //mapdeparture
     statusFieldName:"T_Subdistrict", //barsdestination
-    geo:"data/syria2.geojson",
+    geo:"data/syria3.geojson",
     joinAttribute:"NAM_EN_REF",
     colors:['#edf8e9','#bae4b3','#74c476','#238b45','#fee5d9','#fcae91','#fb6a4a','#cb181d','#99000d']
 };
